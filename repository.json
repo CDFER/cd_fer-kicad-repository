@@ -12,10 +12,5 @@
         "update_time_utc": "2025-11-01 04:00:00",
         "update_timestamp": 1761922800,
         "url": "https://raw.githubusercontent.com/CDFER/cd_fer-kicad-repository/main/packages.json"
-    },
-    "resources": {
-        "update_time_utc": "2025-11-01 04:00:00",
-        "update_timestamp": 1761922800,
-        "url": "https://github.com/CDFER/cd_fer-kicad-repository/raw/main/resources.zip"
     }
 }
