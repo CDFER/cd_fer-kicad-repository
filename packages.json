@@ -24,6 +24,15 @@
             ],
             "versions": [
                 {
+                    "version": "2025.03.01",
+                    "status": "stable",
+                    "kicad_version": "8.0",
+                    "download_sha256": "efffd40143deb1857dd2ab8d3ccf12ab5dea362d458128045d219aa2bf28933a",
+                    "download_size": 28135298,
+                    "install_size": 156818111,
+                    "download_url": "https://github.com/CDFER/JLCPCB-Kicad-Library/releases/download/2025.03.01/JLCPCB-KiCad-Library-2025.03.01.zip"
+                },
+                {
                     "version": "2025.02.28",
                     "status": "stable",
                     "kicad_version": "8.0",
