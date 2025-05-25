@@ -9,8 +9,8 @@
     },
     "name": "CD_FER's KiCad repository",
     "packages": {
-        "update_time_utc": "2025-05-24 06:36:31",
-        "update_timestamp": 1748068591,
+        "update_time_utc": "2025-05-25 06:37:29",
+        "update_timestamp": 1748155049,
         "url": "https://raw.githubusercontent.com/CDFER/cd_fer-kicad-repository/main/packages.json"
     },
     "resources": {
