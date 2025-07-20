@@ -1,12 +1,12 @@
 name: Update Repository
 
-on: 
-  push:
-    branches:
-      - main
-  schedule:  # run 15 mins after jlcpcb kicad library
-    - cron: "15 6 * * *"
-  workflow_dispatch:  # allow for manually trigger workflow
+on:
+  # push:
+  #   branches:
+  #     - main
+  # schedule:  # run 15 mins after jlcpcb kicad library
+  #   - cron: "15 6 * * *"
+  workflow_dispatch: # allow for manually trigger workflow
 
 jobs:
   update-library-from-database:
@@ -24,8 +24,8 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
-          cache: 'pip' # caching pip dependencies
+          python-version: "3.13"
+          cache: "pip" # caching pip dependencies
       - run: pip install -r requirements.txt
       - run: python updateRepository.py
 
